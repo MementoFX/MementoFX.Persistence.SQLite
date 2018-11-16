@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Persistence.SQLite", "src\Memento.Persistence.SQLite\Memento.Persistence.SQLite.csproj", "{2DAC491A-7D08-45E8-9FC7-79E9AF94A005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoFX.Persistence.SQLite", "src\Memento.Persistence.SQLite\MementoFX.Persistence.SQLite.csproj", "{2DAC491A-7D08-45E8-9FC7-79E9AF94A005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Persistence.SQLite.Tests", "src\Memento.Persistence.SQLite.Tests\Memento.Persistence.SQLite.Tests.csproj", "{CD16CCD0-1F89-408D-86F8-2F60F9F70C7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoFX.Persistence.SQLite.Tests", "src\Memento.Persistence.SQLite.Tests\MementoFX.Persistence.SQLite.Tests.csproj", "{CD16CCD0-1F89-408D-86F8-2F60F9F70C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EC1A0BD-31FB-4070-9322-E0A77B8E12DC}
 	EndGlobalSection
 EndGlobal
